@@ -5,3 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return "Render API Running"
+
+@app.route("/")
+def home():
+    return {"status": "ok"}
